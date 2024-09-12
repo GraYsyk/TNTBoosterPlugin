@@ -1,8 +1,9 @@
 properties:
   tntexplosionpower: 50 #Max 400 (400+ can kill your server).
-  tntblockbreak: 0 # 2 - tnt does not explode, 1 - TNT does not break any blocks, 0 - TNT breaks blocks as usual.
+  tntblockbreak: 2 # 2 - tnt does not explode, 1 - TNT does not break any blocks, 0 - TNT breaks blocks as usual.
   tntblocklist: '200' #Enter block list (wood, grass, dirt, etc.).
 
 messages:
   usage: 'Usage: /tntbooster reload'
   reload: 'TNTBooster has been reloaded!'
+  noPermission: 'You dont have permission to use this command!'

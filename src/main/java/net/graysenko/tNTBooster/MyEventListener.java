@@ -20,13 +20,19 @@ public class MyEventListener implements Listener{
 
     // TNT explosion configuration
     @EventHandler
-    public void tntExplosion(ExplosionPrimeEvent event) {
-        if(event.getEntity() instanceof TNTPrimed) {
+    public void tntExplosion(ExplosionPrimeEvent e) {
+
+        if(e.getEntity() instanceof TNTPrimed) {
             int power = instance.getInstance().getConfig().getInt("properties.tntexplosionpower");
             if (power > 600) {
                 power = 600;
             }
-            event.setRadius(power);
+            e.setRadius(power);
+
+            int choise = instance.getInstance().getConfig().getInt("properties.tntblockbreak");
+            if (choise == 2) {
+                e.setCancelled(true);
+            }
         }
     }
 
@@ -37,8 +43,6 @@ public class MyEventListener implements Listener{
             int choice = instance.getConfig().getInt("properties.tntblockbreak");
             if (choice == 1) {
                 e.blockList().clear();
-            } else if (choice == 2) {
-                e.setCancelled(true);
             }
         }
     }

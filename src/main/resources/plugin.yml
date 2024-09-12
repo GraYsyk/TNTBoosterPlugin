@@ -2,6 +2,7 @@ name: TNTBooster
 version: '1.0-SNAPSHOT'
 main: net.graysenko.tNTBooster.TNTBooster
 api-version: '1.20'
+depend: [ ProtocolLib ]
 load: STARTUP
 authors: [ GraYs ]
 description: Full TNT configuration
@@ -9,3 +10,7 @@ commands:
   tntbooster:
     description: tntbooster configuration command
     usage: /tntbooster
+permissions:
+  tntbooster.*:
+    description: Allows you to configurate the plugin
+    default: op

@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="tntbooster:jar">
-    <output-path>$USER_HOME$/Desktop/Plugggin/Server/plugins</output-path>
+    <output-path>$USER_HOME$/Desktop/Plugggin/TestServer/plugins</output-path>
     <root id="archive" name="tntbooster.jar">
       <element id="module-output" name="tntbooster" />
     </root>
