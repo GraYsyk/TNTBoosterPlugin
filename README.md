@@ -14,7 +14,11 @@
 - /TNTBooster help - help command
 - /TNTBooster reload - Config reload command
 
-**More commands & permission system** will be here soon with next commits!
+**Permissions**
+- "tntbooster.*" - allows you to configurate the plugin!
+
+
+**More commands** will be here soon with next commits!
 
 **Credits**
 Author: GraYs
