@@ -13,7 +13,7 @@
 **Commands**
 - /TNTBooster help - help command
 - /TNTBooster reload - Config reload command
-- /TNTBooster give <player> 1/2/3
+- /TNTBooster give "player" 1/2/3
 
 **Custom TNTs**
 
