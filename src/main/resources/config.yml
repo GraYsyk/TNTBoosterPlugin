@@ -1,9 +1,33 @@
 properties:
-  tntexplosionpower: 50 #Max 400 (400+ can kill your server).
-  tntblockbreak: 2 # 2 - tnt does not explode, 1 - TNT does not break any blocks, 0 - TNT breaks blocks as usual.
-  tntblocklist: '200' #Enter block list (wood, grass, dirt, etc.).
+  tntexplosionpower: 4 # Max 400 (400+ can kill your server).
+  tntblockbreak: 0 # 2 - tnt does not explode, 1 - TNT does not break any blocks, 0 - TNT breaks blocks as usual.
+  tntblocklist: '' # Enter block list (wood, grass, dirt, etc.).
 
 messages:
   usage: 'Usage: /tntbooster reload'
   reload: 'TNTBooster has been reloaded!'
+  noplayerfound: 'Player was not found!'
   noPermission: 'You dont have permission to use this command!'
+
+tnt:
+  level1:
+    name: 'TNT LEVEL 1'
+    lore:
+      - '5x Stronger than basic TNT!'
+      - 'Ideal for medium-sized structures'
+      - 'Safe for use near water'
+      - 'Can destroy stone and dirt'
+  level2:
+    name: 'TNT LEVEL 2'
+    lore:
+      - '10x Stronger than basic TNT!'
+      - 'Can break through stone and iron blocks'
+      - 'Suitable for large-scale demolitions'
+      - 'Handle with care'
+  level3:
+    name: 'OBSIDIAN TNT'
+    lore:
+      - '15x Stronger than basic TNT!'
+      - 'Powerful enough to destroy obsidian'
+      - 'Perfect for advanced mining operations'
+      - 'Handle with extreme caution'
