@@ -25,12 +25,12 @@
  **Level 2 TNT**
  - 10x stronger than basic TNT, has medium Fuse time
  - It has an ignition effect, at the moment of explosion it envelops the explosion crater with fire
- - Does not work under the water
+ - Also wors under the water because of a incendiary explosion rage.
 
  **Level 3 TNT (obisdian)**
  - 15x stronger than basic TNT, has huge Fuse time
  - Doesn't set the area on fire after an explosion
- - Works under water
+ - Does not work under water
  - Breaks obsidian in rafius 3x3 under TNT
 
   **Custom TNTs configuration**
@@ -39,8 +39,6 @@
 
 **Permissions**
 - "tntbooster.*" - allows you to configurate the plugin!
-
-**More commands** will be here soon with next commits!
 
 **Credits**
 Author: GraYs
